@@ -1,0 +1,112 @@
+
+@import 'https://fonts.googleapis.com/css?family=Quicksand';
+
+body {   
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+    color: black;
+    margin: 0 auto;
+}
+.header {
+    margin: auto;
+    width: 80%;
+    margin-top: 50px;
+}
+.search_section{	
+	background: aliceblue;
+}
+.cus_header{
+	background-color: rgba(0, 0, 0, 0.7);
+    border-top-left-radius: 25px;
+    padding: 15px;
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
+    /*--box-shadow: 27px 27px 60px dimgrey;--*/
+    color: #fff;
+}
+.search_bar {
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+.cus_searh {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #a9a9a9;
+}
+.cus_searh:focus {
+    background: #99ffbb;
+}
+.cus_btn{
+	background-color: white;
+    padding: 8px;
+	margin-left: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: solid 1px lightgrey;
+    cursor: pointer;
+}
+.history {
+    float: right;
+	}
+.table_start h4 {
+    border-bottom: 2px solid lightgrey;
+	padding: 10px 0;
+	font-weight: 900;
+}
+.cus_close {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 7px;
+	float: right;
+    cursor: pointer;
+}
+.cus_time{
+	float: right;
+    margin-right: 23px;
+	font-size: 15px;
+    color: lightgray;
+}
+.table_start {
+    padding: 15px;
+    box-shadow: 0px 0px 18px grey;
+    border-radius: 5px;
+    background: #fff;
+    margin-top: 30px;
+	overflow-y: auto;
+}
+.history a {
+    color: #000;
+}
+.comment_section{
+	background-color: white;
+    box-shadow: 0px 0px 18px grey;
+    border-radius: 2px;
+    padding: 1%;
+    border: solid 2px lightgrey;
+    height: 250px;
+    overflow-y: auto;
+    transition: all 0.5s ease-in;
+    cursor: auto;
+	margin-top: 20px;
+}
+.commentSpace {
+    padding: 3px;
+    font-size: smaller;
+    width: 85%;
+    margin: auto;
+    overflow-y: auto;
+}
+.suggessions {
+    background: #fff;
+    list-style-type: none;
+    width: 97%;
+    border-radius: 5px;
+    margin-top: 3px;
+    position: relative;
+	box-shadow: 0px 1px 8px grey;
+	padding: 0px 15px;
+}
+ul#suggestion li:nth-child(even) {
+    padding: 5px 0;
+}
